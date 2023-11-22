@@ -13,6 +13,8 @@ an unoffical 2D version of Counter Strike
 
 **B** -> Buy Armour
 
+**M** -> Team Selection
+
 **Left Mouse Button** -> Fire
 
 
