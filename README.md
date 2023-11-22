@@ -3,7 +3,7 @@
 
 
 ## Description
-an unoffical 2D version of Counter Strike
+an unofficial 2D version of Counter Strike
 
 ## Controls
 
