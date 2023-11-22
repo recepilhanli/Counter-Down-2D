@@ -3,7 +3,7 @@
 
 
 ## Description
-an unofficial 2D version of Counter Strike
+an unofficial 2D version of Counter Strike that made with Unity Engine.
 
 ## Controls
 
