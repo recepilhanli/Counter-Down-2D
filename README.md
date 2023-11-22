@@ -20,8 +20,8 @@ an unofficial 2D version of Counter Strike that made with Unity Engine.
 
 ## Features
 
-Multiplayer
+Multiplayer Game
 
-Bot System
+Advanced Bot System
 
 [![Gameplay Video](https://img.youtube.com/vi/_5_JgewnNN4/0.jpg)](https://www.youtube.com/watch?v=_5_JgewnNN4)
