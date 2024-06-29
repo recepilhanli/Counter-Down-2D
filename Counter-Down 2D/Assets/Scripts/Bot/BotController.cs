@@ -27,8 +27,8 @@ public class BotController : NetworkBehaviour
             _Player.PlayerTeam.Value = Player.Teams.Team_CT;
             _Player.PlayerID.Value = -TotalBot;
 
-
-            var Created = new GameObject("BotNavAgent");
+            //bot will drive the navmesh agent
+            var Created = new GameObject("BotNavAgent: " + -TotalBot);
             Created.transform.position = transform.position;
             Agent = Created.AddComponent<NavMeshAgent>();
 
@@ -104,9 +104,9 @@ public class BotController : NetworkBehaviour
             {
                 var player = players[i];
                 if (player == null) continue;
-            
+
                 if (_Player.PlayerTeam.Value == player.PlayerTeam.Value || player.PlayerTeam.Value == Player.Teams.Team_None) continue;
-      
+
                 if (Vector2.Distance(transform.position, player.transform.position) < 8)
                 {
                     Debug.Log($"Bot enemy player detection: {_Player.gameObject} + {player.gameObject}");
